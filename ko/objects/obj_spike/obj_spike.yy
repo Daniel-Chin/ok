@@ -5,7 +5,7 @@
     "name": "obj_spike",
     "eventList": [
         {
-            "id": "9900ed12-cfb8-4813-832b-62312f65ac6a",
+            "id": "9b418007-9abb-4b66-b787-2a709835486e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
