@@ -1,0 +1,16 @@
+ranged enemies. player can block
+you have to block
+3 slash combo: only unleash the 3rd if prev 2 hits? 
+left, right, up, down, jump (glide), attack
+gliding when you don't have briefcase 
+ariel attack 
+Platforming elements? 
+    chair
+hidden HP bar for enemies
+Health system for player: dialog. auto regen. 
+low horizontal momentum
+
+crosscode + typewriter, async
+knockback. 
+when hit: if enemy dies from impact, move forward; otherwise move forward then backward (reverse-knockback)
+when damaged: knocked back, immune ends after you recover from stiff
