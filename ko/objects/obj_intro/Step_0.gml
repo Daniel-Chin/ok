@@ -110,8 +110,6 @@ switch (stage) {
 			timer = 0;
 			stage = 9;
 			// exit
-			image_xscale = 1;
-			image_yscale = .5;
 			sprite_index = spr_chairroom_cross_nopatient;
 		}
 		break;
@@ -174,7 +172,7 @@ switch (stage) {
 		break;
 	case 15:
 		// repeated
-		if (timer >= 3) {
+		if (timer >= 5) {
 			timer = 0;
 			stage ++;
 			// exit
@@ -210,7 +208,7 @@ switch (stage) {
 		break;
 	case 19:
 		// repeated
-		if (timer >= 3) {
+		if (timer >= 6) {
 			timer = 0;
 			stage ++;
 			// exit
@@ -255,7 +253,7 @@ switch (stage) {
 		break;
 	case 24:
 		// repeated
-		if (timer >= 3) {
+		if (timer >= 5) {
 			timer = 0;
 			stage ++;
 			// exit
@@ -269,6 +267,8 @@ switch (stage) {
 			stage ++;
 			// exit
 			sprite_index = spr_transition;
+			image_xscale = 2;
+			image_yscale = 2;
 		}
 		break;
 }

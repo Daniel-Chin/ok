@@ -13,7 +13,8 @@
         "cc64310a-d3c0-4b00-bbc9-db2d513731ef",
         "7a010269-448f-49ca-8965-f3496fabb8db",
         "711ceffc-e1f0-4d66-9159-2d7f4650b352",
-        "fa2f6d8f-a047-417b-b933-ba6aea29515c"
+        "fa2f6d8f-a047-417b-b933-ba6aea29515c",
+        "4d32a552-b7fe-4429-addf-33cd0d8673bd"
     ],
     "IsDnD": false,
     "layers": [
@@ -37,7 +38,8 @@
 {"name": "inst_477A5880","id": "cc64310a-d3c0-4b00-bbc9-db2d513731ef","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_477A5880","objId": "72dd691d-9ada-42f6-bdfb-46d1399a029a","properties": null,"rotation": 0,"scaleX": 75,"scaleY": 1.5,"mvc": "1.1","x": 0,"y": 448},
 {"name": "inst_1EBF270E","id": "7a010269-448f-49ca-8965-f3496fabb8db","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1EBF270E","objId": "be220c1f-d63b-4eb7-b94d-04285e3ef73b","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 896,"y": 384},
 {"name": "inst_2B9C51CF","id": "711ceffc-e1f0-4d66-9159-2d7f4650b352","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2B9C51CF","objId": "9f40785b-1c33-4174-b3ef-3dc22cecf31f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 728,"y": 418},
-{"name": "inst_2677C7F4","id": "fa2f6d8f-a047-417b-b933-ba6aea29515c","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_2677C7F4.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2677C7F4","objId": "2489e154-6535-4090-bb0f-8c8c54887f37","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 1824,"y": 384}
+{"name": "inst_2677C7F4","id": "fa2f6d8f-a047-417b-b933-ba6aea29515c","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_2677C7F4.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2677C7F4","objId": "2489e154-6535-4090-bb0f-8c8c54887f37","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 1824,"y": 384},
+{"name": "inst_5A0B484C","id": "4d32a552-b7fe-4429-addf-33cd0d8673bd","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5A0B484C","objId": "0f4d2171-2cb7-46d1-9147-cf6be61843c3","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 4000,"y": 1056}
             ],
             "layers": [
 
@@ -95,8 +97,8 @@
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
             "modelName": "GMRTileLayer",
-            "prev_tileheight": 64,
-            "prev_tilewidth": 68,
+            "prev_tileheight": 32,
+            "prev_tilewidth": 32,
             "mvc": "1.0",
             "tiles": {
                 "SerialiseData": null,
