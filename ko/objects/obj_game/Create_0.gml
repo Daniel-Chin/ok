@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.WIDTH = 960;
-global.HEIGHT = 540;
+global.WIDTH = 1920;
+global.HEIGHT = 1080;
 
 global.GRAVITY = 50;
 global.JUMP_POWER = 10;
@@ -66,6 +66,8 @@ global.DIALOG_STAY = 3;
 global.DIALOG_FADE = 1;
 
 global.CAMERA_SPEED = 2000;
+global.VIEW_WIDTH = 960;
+global.VIEW_HEIGHT = 540;
 global.room_col = 0;
 global.room_row = 0;
 

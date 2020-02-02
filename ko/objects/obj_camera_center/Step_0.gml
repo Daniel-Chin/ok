@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.room_col = (global.player).x div global.WIDTH;
-global.room_row = (global.player).y div global.HEIGHT;
-var target_x = (global.room_col + .5) * global.WIDTH;
-var target_y = (global.room_row + .5) * global.HEIGHT;
+global.room_col = (global.player).x div global.VIEW_WIDTH;
+global.room_row = (global.player).y div global.VIEW_HEIGHT;
+var target_x = (global.room_col + .5) * global.VIEW_WIDTH;
+var target_y = (global.room_row + .5) * global.VIEW_HEIGHT;
 var camera_travel = global.CAMERA_SPEED * global.spf;
 if (abs(x - target_x) <= camera_travel) {
 	x = target_x;
