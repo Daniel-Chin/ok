@@ -746,7 +746,7 @@
             "Key": "991f1511-5bd6-4ba7-b731-94ada421dcfa",
             "Value": {
                 "id": "2641828d-4a0b-4b8f-8cce-da37ab40c7f2",
-                "resourcePath": "rooms\\rm_playground\\rm_playground.yy",
+                "resourcePath": "rooms\\rm_dev_playground\\rm_dev_playground.yy",
                 "resourceType": "GMRoom"
             }
         },
