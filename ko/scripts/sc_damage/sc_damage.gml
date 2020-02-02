@@ -2,7 +2,7 @@ var who = argument0;
 var damage = argument1;
 var knockback_direction = argument2;
 if (who.invincibility_timeout <= 0) {
-	who.hp -= damage;
+	//who.hp -= damage;////
 	if (who.hp <= 0) {
 		instance_destroy(who);
 		return true;

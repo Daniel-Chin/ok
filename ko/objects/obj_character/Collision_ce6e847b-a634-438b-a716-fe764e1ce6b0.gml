@@ -10,13 +10,17 @@ if (abs(bbox_bottom - other.bbox_top) < global.GRAVITY * 1) {	// to be proof of 
 }
 if (hspeed - other.hspeed < 0 && abs(bbox_left - other.bbox_right) < global.MAX_SPEED) {
 	hspeed = other.hspeed;
-	if (! up) {
+	if (up) {
+		hspeed -= 3;
+	} else {
 		hspeed += 3;
 	}
 }
 if (hspeed - other.hspeed > 0 && abs(bbox_right - other.bbox_left) < global.MAX_SPEED) {
 	hspeed = other.hspeed - .3;
-	if (! up) {
+	if (up) {
+		hspeed += 3;
+	} else {
 		hspeed -= 3;
 	}
 }

@@ -1,7 +1,3 @@
-Walk 2-3 frames
-Jump 2-3 frames
-ariel 1 frame
-Above 4, without briefcase version. 
 attack_1 2-4 frames
 attack_2 2-4 frames
 cool_attack 3-6 frames

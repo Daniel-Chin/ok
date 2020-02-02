@@ -63,6 +63,18 @@ if (state == IDLE) {
 			}
 			attack_progress = 0;
 			attack_stage = PREPARE;
+			switch (combo) {
+				case 0:
+					sprite_index = spr_attack_1;
+					break;
+				case 1:
+					sprite_index = spr_attack_2;
+					break;
+				case 2:
+					sprite_index = spr_attack_3;
+					break;
+			}
+			image_speed = 1;
 		}
 	}
 	if (has_briefcase && keyboard_check_pressed(global.KEY_THROW) && throw_cooldown <= 0) {
@@ -153,29 +165,34 @@ if (state == BLOCKING) {
 		state = IDLE;
 	}
 }
-if (can_jump > 0) {
-	if (moving) {
-		image_speed = 1;
-		if (has_briefcase) {
-			sprite_index = spr_walk_brief;
+if (state == IDLE) {
+	if (combo == 1 || combo == 2) {
+		exit;
+	}
+	if (can_jump > 0) {
+		if (moving) {
+			image_speed = 1;
+			if (has_briefcase) {
+				sprite_index = spr_walk_brief;
+			} else {
+				sprite_index = spr_walk_no_brief;
+			}
 		} else {
-			sprite_index = spr_walk_no_brief;
+			image_speed = 1;
+			if (has_briefcase) {
+				sprite_index = spr_player_brief;
+			} else {
+				sprite_index = spr_player_no_brief;
+			}
 		}
 	} else {
-		image_speed = 1;
 		if (has_briefcase) {
-			sprite_index = spr_player_brief;
+			sprite_index = spr_jump_brief;
 		} else {
-			sprite_index = spr_player_no_brief;
+			sprite_index = spr_jump_no_brief;
 		}
-	}
-} else {
-	if (has_briefcase) {
-		sprite_index = spr_jump_brief;
-	} else {
-		sprite_index = spr_jump_no_brief;
-	}
-	if (image_index >= 2) {
-		image_speed = 0;
+		if (image_index >= 2) {
+			image_speed = 0;
+		}
 	}
 }
