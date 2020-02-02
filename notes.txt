@@ -1,9 +1,13 @@
-ranged enemies. player can block
-you have to block
-left, right, up, down, jump (glide), attack
-gliding when you don't have briefcase 
-Platforming elements? 
-    chair
+stand 1-2 frame
+Walk 2-3 frames
+Jump 2-3 frames
+ariel 1 frame
+Above 4, without briefcase version. 
+attack_1 2-4 frames
+attack_2 2-4 frames
+cool_attack 3-6 frames
+block 2-3 frames
+
 Health system for player: dialog. auto regen. 
 
 crosscode + typewriter, async

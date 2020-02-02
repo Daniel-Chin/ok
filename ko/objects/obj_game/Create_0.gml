@@ -52,3 +52,10 @@ global.RANGED_ENEMY_FIRE_INTERVAL = 3;
 global.PROJECTILE_SPEED = 5;
 
 global.BLOCK_TIME = .8;
+
+draw_set_halign(fa_center);
+draw_set_valign(fa_center);
+global.root_dialog = -1;
+global.CHARACTER_PER_SECOND = 20;
+global.DIALOG_STAY = 3;
+global.DIALOG_FADE = 1;
