@@ -27,4 +27,6 @@ left_incoming = 0;
 right_incoming = 0;
 block_progress = 0;
 
+hp_regen_timeout = -1;
+
 global.player = id;

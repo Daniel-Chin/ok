@@ -8,6 +8,9 @@ if (invincible_timeout <= 0) {
 	invincible_timeout = global.INVINCIBLE_TIME;
 	state = HURT;
 	hp --;
+	if (hp_regen_timeout < 0) {
+		hp_regen_timeout = global.PLAYER_HP_REGEN_INTERVAL;
+	}
 	var knockback_direction;
 	if (other.x > x) {
 		knockback_direction = -1;

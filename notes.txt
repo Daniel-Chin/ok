@@ -1,9 +1,5 @@
-attack_1 2-4 frames
-attack_2 2-4 frames
-cool_attack 3-6 frames
 block 2-3 frames
-briefcase 
-profile image
+shader while recall
 
 Health system for player: dialog. auto regen. 
 

@@ -10,8 +10,8 @@ switch (state) {
 		sprite_index = speaker_sprite;
 		target_x = room_width * (.5 + offset_direction * .4);
 		target_length = string_length(text);
-		//image_xscale = 2;
-		//image_yscale = 2;
+		image_xscale = .4;
+		image_yscale = .4;
 		state ++;
 		break;
 	case APPEAR:
@@ -61,6 +61,15 @@ var smart_top = y - room_height * .08;
 if (upper != -1) {
 	smart_top = max(smart_top, upper.y + room_height * .12);
 }
+draw_set_color(c_black);
+draw_set_alpha(min(.7, image_alpha));
+draw_roundrect_ext(
+	x + bubble_offset - room_width * .4, smart_top, 
+	x + bubble_offset + room_width * .4, y + room_height * .08, 
+	40, 40, false
+);
+draw_set_color(c_white);
+draw_set_alpha(image_alpha);
 draw_roundrect_ext(
 	x + bubble_offset - room_width * .4, smart_top, 
 	x + bubble_offset + room_width * .4, y + room_height * .08, 

@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "39736b69-521d-4b75-a9e2-de1995025806",
+            "Value": {
+                "id": "c798df10-1e4b-404a-af26-5f06f828ccba",
+                "resourcePath": "sprites\\spr_incubus_dialogue\\spr_incubus_dialogue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "476ccb71-19e6-414c-a663-f5fc136ea005",
             "Value": {
                 "id": "ba9cbd4c-2451-4f5a-8f27-23a971bf2ee6",
@@ -132,6 +140,14 @@
                 "id": "6efe0156-23e5-4e69-9dec-fb10d6740b54",
                 "resourcePath": "sprites\\spr_jump_no_brief\\spr_jump_no_brief.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "498e92a9-1aad-4fa7-9301-fa4b6fdfdf5c",
+            "Value": {
+                "id": "a3aa4926-f8c7-4201-adb9-29680d103ae8",
+                "resourcePath": "sounds\\mus_room\\mus_room.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -175,6 +191,14 @@
             }
         },
         {
+            "Key": "6213eca3-f796-4d86-8abb-85171a2e47e7",
+            "Value": {
+                "id": "beef7c2e-a789-47cc-96b7-120d15e3f9f5",
+                "resourcePath": "views\\6213eca3-f796-4d86-8abb-85171a2e47e7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "62f89435-1a11-4c4b-9eb9-e56cbb9d9fb9",
             "Value": {
                 "id": "0a12f75f-acb1-4325-a933-8804bbce49a4",
@@ -186,8 +210,16 @@
             "Key": "6fd06f05-d886-4b3c-88c7-eb98da5bb9d3",
             "Value": {
                 "id": "2b4e73e5-9ab2-4e07-990e-55b39854a3ec",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_intro\\rm_intro.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6fd87c1f-db5b-4c79-bb5c-7cf787966d7e",
+            "Value": {
+                "id": "b75fdabd-d174-4659-a8c5-cd59a1f67284",
+                "resourcePath": "sprites\\spr_patient_dialogue_angry\\spr_patient_dialogue_angry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -231,6 +263,14 @@
             }
         },
         {
+            "Key": "8093ba0e-4a6a-4c74-9642-1fa5419a570d",
+            "Value": {
+                "id": "1eed1888-476d-4223-aba8-e6f37b9e1326",
+                "resourcePath": "sprites\\spr_patient_dialogue\\spr_patient_dialogue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "817c26de-e78f-4b71-b94e-c4ed276d58d9",
             "Value": {
                 "id": "45a24bca-90b9-41b8-a6e6-628056fa36bb",
@@ -239,11 +279,51 @@
             }
         },
         {
+            "Key": "81b645b6-44d9-45f7-a950-7103dbbc6775",
+            "Value": {
+                "id": "f2aefb2b-c937-4c23-bbcd-b83e83a0860e",
+                "resourcePath": "sprites\\spr_transition\\spr_transition.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82185a8f-ee7f-47b9-af9f-84943f55cf68",
+            "Value": {
+                "id": "9b0d0c40-7f32-4a4b-8ee6-bb3e847ce12c",
+                "resourcePath": "sprites\\spr_incubus_dialogue_angry\\spr_incubus_dialogue_angry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82c87a2d-a223-424f-a97b-e6cb8fead886",
+            "Value": {
+                "id": "c54bbdc5-179f-4129-8986-dbe6a3be9dcf",
+                "resourcePath": "sprites\\spr_incubus_dialogue_confuse\\spr_incubus_dialogue_confuse.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8464c00a-f415-4b96-b43e-ee7e855850d7",
             "Value": {
                 "id": "b0d1198f-9249-4bcd-9b5b-ae898a96c58b",
                 "resourcePath": "views\\8464c00a-f415-4b96-b43e-ee7e855850d7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "84d72bfa-7519-4fcc-82c4-d69ce15f3f3d",
+            "Value": {
+                "id": "4d467f24-ffab-4ea6-ac6a-269748814929",
+                "resourcePath": "sprites\\spr_patient_dialogue_sad\\spr_patient_dialogue_sad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8be54e0d-2a39-43d7-9d6d-3463a5391f7f",
+            "Value": {
+                "id": "5f9f7b59-e0fb-4087-b978-3e7640559bd0",
+                "resourcePath": "objects\\obj_intro\\obj_intro.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -327,6 +407,14 @@
             }
         },
         {
+            "Key": "ae400126-3d8a-40e7-b98f-dd30ba872ba4",
+            "Value": {
+                "id": "64b289d7-6218-437e-aed2-d2e4c12a3433",
+                "resourcePath": "sounds\\mus_room_loop\\mus_room_loop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b03236f9-ceb4-4f8a-a2e8-9b3a3506a0a6",
             "Value": {
                 "id": "270b1135-f1bc-4e92-aa35-62e1fe4936ee",
@@ -347,6 +435,14 @@
             "Value": {
                 "id": "db73cf6a-d0c3-49cf-b97c-9ac0a2d5ec7f",
                 "resourcePath": "sprites\\spr_walk_no_brief\\spr_walk_no_brief.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b86d4115-700e-447e-b7f0-aa89f03ae217",
+            "Value": {
+                "id": "0c99e7ac-59d0-4d0b-90e0-659e6e2f9355",
+                "resourcePath": "sprites\\spr_chairroom_cross_nopatient\\spr_chairroom_cross_nopatient.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -436,6 +532,14 @@
                 "id": "57df2905-8ab2-485e-af7d-26b3ee34f919",
                 "resourcePath": "objects\\obj_character\\obj_character.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ef967ad7-1868-4014-b895-4865a4eaa85a",
+            "Value": {
+                "id": "3a29885e-1228-4aed-b390-dda9e1e4da14",
+                "resourcePath": "sprites\\spr_chairroom_cross_patient\\spr_chairroom_cross_patient.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

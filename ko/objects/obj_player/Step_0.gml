@@ -26,6 +26,13 @@ if (invincible_timeout > 0) {
 		visible = floor(invincible_timeout * 2 / global.INVINCIBLE_BLINK) % 2 == 0;
 	}
 }
+if (hp_regen_timeout > 0) {
+	hp_regen_timeout -= global.spf;
+	if (hp_regen_timeout <= 0) {
+		hp_regen_timeout = -1;
+		hp = max(3, hp + 1);
+	}
+}
 
 if (state == IDLE) {
 	var did_interrupt_recall = false;
@@ -66,12 +73,15 @@ if (state == IDLE) {
 			switch (combo) {
 				case 0:
 					sprite_index = spr_attack_1;
+					image_index = 0;
 					break;
 				case 1:
 					sprite_index = spr_attack_2;
+					image_index = 0;
 					break;
 				case 2:
 					sprite_index = spr_attack_3;
+					image_index = 0;
 					break;
 			}
 			image_speed = 1;
@@ -119,12 +129,12 @@ if (state == ATTACK || state == SMASH) {
 			attack_area.state = 1;
 			break;
 		case FORWARD:
-			if (
-				state == ATTACK && attack_progress < global.ATTACK_FORWARD_TIME
-			||
-				state == SMASH && attack_progress < global.SMASH_FORWARD_TIME
-			) {
+			if (state == ATTACK && attack_progress < global.ATTACK_FORWARD_TIME) {
 				hspeed += facing * global.ATTACK_FORWARD_POWER;
+				break;
+			}
+			if (state == SMASH && attack_progress < global.SMASH_FORWARD_TIME) {
+				hspeed += facing * global.SMASH_FORWARD_POWER;
 				break;
 			}
 			attack_progress = 0;

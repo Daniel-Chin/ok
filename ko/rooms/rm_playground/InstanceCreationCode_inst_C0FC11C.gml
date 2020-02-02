@@ -1,4 +1,4 @@
 todo = [
-	[0, sc_dialog, spr_player_brief, "Example sentence that \na character would say.", -1], 
-	[4, sc_dialog, spr_player_no_brief, "A weird response.", 1], 
+	[0, sc_dialog, spr_patient_dialogue, "Example sentence that \na character would say.", -1], 
+	[4, sc_dialog, spr_incubus_dialogue, "A weird response.", 1], 
 ];

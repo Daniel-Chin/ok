@@ -13,13 +13,14 @@ global.KEY_JUMP = vk_space;
 global.KEY_ATTACK = ord("A"); 
 global.KEY_THROW = ord("D");
 
-global.ATTACK_FORWARD_POWER = .3;
-global.ATTACK_PREPARE_TIME = .3;
-global.ATTACK_FORWARD_TIME = .3;
+global.ATTACK_FORWARD_POWER = .35;
+global.ATTACK_PREPARE_TIME = .2;
+global.ATTACK_FORWARD_TIME = .25;
 global.ATTACK_RECOVER_TIME = .1;
-global.SMASH_PREPARE_TIME = .5;
-global.SMASH_FORWARD_TIME = .3;
-global.SMASH_RECOVER_TIME = 0;
+global.SMASH_FORWARD_POWER = .7;
+global.SMASH_PREPARE_TIME = .3;
+global.SMASH_FORWARD_TIME = .2;
+global.SMASH_RECOVER_TIME = .2;
 global.INVINCIBLE_TIME = 1;	// You become invincible when you are attacked
 global.INVINCIBLE_FREE_TIME = .5;	// During this time you can control the character while it's invincible
 
@@ -47,11 +48,13 @@ global.ENEMY_WALK_APPROACH = 0.02;
 global.ENEMY_RETURN = 50;
 global.ENEMY_JUMP_RARE = 10;	// in seconds
 global.ENEMY_JUMP_POWER = 15;
+global.RANGED_ENEMY_X_TOLERANCE = 400;
 global.RANGED_ENEMY_Y_TOLERANCE = 50;
 global.RANGED_ENEMY_FIRE_INTERVAL = 3;
 global.PROJECTILE_SPEED = 5;
 
 global.BLOCK_TIME = .8;
+global.PLAYER_HP_REGEN_INTERVAL = 30;
 
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);

@@ -4,7 +4,7 @@ event_inherited();
 if (cooldown > 0) {
 	cooldown -= global.spf;
 }
-if (cooldown <= 0 && abs((global.player).y - y) < global.RANGED_ENEMY_Y_TOLERANCE) {
+if (cooldown <= 0 && abs((global.player).y - y) < global.RANGED_ENEMY_Y_TOLERANCE && abs((global.player).x - x) < global.RANGED_ENEMY_X_TOLERANCE) {
 	cooldown = global.RANGED_ENEMY_FIRE_INTERVAL;
 	var projectile = instance_create_layer(x, y, "Instances", obj_projectile);
 	if ((global.player).x - x > 0) {
