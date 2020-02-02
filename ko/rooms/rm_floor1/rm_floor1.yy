@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_world",
+    "name": "rm_floor1",
     "id": "b7bf2c8f-1567-4797-b4e3-461f8849ba14",
     "creationCodeFile": "",
     "inheritCode": false,
