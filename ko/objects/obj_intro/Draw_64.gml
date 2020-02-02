@@ -56,7 +56,7 @@ switch (stage) {
 		break;
 	case 2:
 		// repeated
-		draw_set_font(global.font_36);
+		draw_set_font(global.font_24);
 		draw_rectangle(0, 0, room_width, room_height, false);
 		draw_sprite_ext(spr_title, floor(timer / .1) % 3, 0, 0, 2, 2, 0, c_white, timer / 1);
 		break;

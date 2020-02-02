@@ -1,5 +1,5 @@
 {
-    "id": "7f856439-c2c8-43c9-968d-023fbb80e0a7",
+    "id": "d4f10690-16a2-49df-a599-e9963af22cba",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutsceneStopAllSound",

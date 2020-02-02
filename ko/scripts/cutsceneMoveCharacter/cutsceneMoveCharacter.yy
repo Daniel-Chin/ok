@@ -1,5 +1,5 @@
 {
-    "id": "533a7554-9148-4b21-9bf2-f7c66bdcf02f",
+    "id": "ce7b53e6-04fa-46fa-b0fa-4e27ab0d29d8",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutsceneMoveCharacter",

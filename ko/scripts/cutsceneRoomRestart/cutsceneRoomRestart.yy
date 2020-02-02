@@ -1,5 +1,5 @@
 {
-    "id": "4838e62b-b790-4e30-bfd4-df2d49e82399",
+    "id": "6a13bb94-1893-4ffd-9e47-ce65374af4ce",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutsceneRoomRestart",

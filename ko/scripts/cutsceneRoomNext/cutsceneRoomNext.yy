@@ -1,5 +1,5 @@
 {
-    "id": "8fa57011-c762-4582-afe8-a2dfef111f62",
+    "id": "7118c399-7f19-465f-a0b0-a4e8299e8fe8",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutsceneRoomNext",

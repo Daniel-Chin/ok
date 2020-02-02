@@ -1,5 +1,5 @@
 {
-    "id": "f9bcc404-6fe1-472d-bdc4-6dd9abfd1f7e",
+    "id": "21d9721b-d6ef-41fc-ac76-5f206999f7cf",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutsceneFadeIn",

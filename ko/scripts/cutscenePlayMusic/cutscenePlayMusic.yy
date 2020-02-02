@@ -1,5 +1,5 @@
 {
-    "id": "eb34b0af-5b21-4679-8c03-d60af225bc6a",
+    "id": "674f9c73-585b-41fd-b4e0-82d09b6c6c08",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutscenePlayMusic",

@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "029763c5-f550-47aa-b67e-1ae1d9401c1a",
+            "Value": {
+                "id": "629d799c-3251-417f-98d5-5d8061a9b75b",
+                "resourcePath": "datafiles_yy\\cutsceneUnwide\\cutsceneUnwide.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "03165bca-ebed-48a5-b081-02fd6f3cb67e",
+            "Value": {
+                "id": "58674ad6-eedb-4ad3-9de5-794b87c0d4df",
+                "resourcePath": "views\\03165bca-ebed-48a5-b081-02fd6f3cb67e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "03298073-7a05-47cc-ac7f-f54b0437740e",
             "Value": {
                 "id": "723443cb-5595-4c21-b209-a6f2d497f483",
@@ -63,11 +79,35 @@
             }
         },
         {
+            "Key": "0397d53b-c956-49a1-b35e-812e257c91b0",
+            "Value": {
+                "id": "844ab448-3b3e-4f1a-b0e7-247a2ca0facd",
+                "resourcePath": "datafiles_yy\\cutsceneStopSound\\cutsceneStopSound.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "07671052-0220-4aa0-be11-06cdc26f25a1",
+            "Value": {
+                "id": "5f421e75-1c92-436a-a30c-279ac528f38a",
+                "resourcePath": "datafiles_yy\\cutsceneMoveCharacterY\\cutsceneMoveCharacterY.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "0783bc18-dc05-4d4f-8f03-053d051c8380",
             "Value": {
                 "id": "7379f093-7f15-4374-a775-21f53dbe9ee4",
                 "resourcePath": "sprites\\window\\window.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "08824648-14d1-4d02-ba47-8f61634c5af9",
+            "Value": {
+                "id": "6c197584-099f-4886-9884-f7ff45a8e0e2",
+                "resourcePath": "datafiles_yy\\cutscenePlaySound\\cutscenePlaySound.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -143,11 +183,27 @@
             }
         },
         {
+            "Key": "0f37e0c2-f212-4d8a-b5dd-a2665ebfa6da",
+            "Value": {
+                "id": "d052b8a6-0476-4280-a612-1f2d98f79d57",
+                "resourcePath": "scripts\\cutsceneFadeOut\\cutsceneFadeOut.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0f4d2171-2cb7-46d1-9147-cf6be61843c3",
             "Value": {
                 "id": "b912bef8-b7a4-48b8-86f1-d75751ad3a4d",
                 "resourcePath": "objects\\obj_camera_center\\obj_camera_center.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0f8dfe88-e2b9-4d87-a3ee-88b74b6d616f",
+            "Value": {
+                "id": "70f7a4dc-bc5c-40e5-ba67-c190e285d8df",
+                "resourcePath": "scripts\\cutsceneUnwide\\cutsceneUnwide.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -207,6 +263,22 @@
             }
         },
         {
+            "Key": "1dcbc504-d9ab-4ecc-859f-ee58cb4c46d3",
+            "Value": {
+                "id": "69a70880-22db-4deb-8d20-3becff8e5d5e",
+                "resourcePath": "views\\1dcbc504-d9ab-4ecc-859f-ee58cb4c46d3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "21d9721b-d6ef-41fc-ac76-5f206999f7cf",
+            "Value": {
+                "id": "75b9757e-614c-4094-aff7-99e76be6ed7d",
+                "resourcePath": "scripts\\cutsceneFadeIn\\cutsceneFadeIn.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "23c030cf-681e-4a89-a54d-05f5212b3441",
             "Value": {
                 "id": "d380f87a-210f-4d56-b9f9-c3c60fb17045",
@@ -231,11 +303,35 @@
             }
         },
         {
+            "Key": "25ef648f-7198-4ac3-9f7f-fb5e586ef4a0",
+            "Value": {
+                "id": "65c007cc-7ffc-4966-8073-42c25df6aed5",
+                "resourcePath": "views\\25ef648f-7198-4ac3-9f7f-fb5e586ef4a0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "270074e8-314a-4c30-bace-d239228ee171",
+            "Value": {
+                "id": "141ddea2-1a63-48c8-a65b-7710cd09cb25",
+                "resourcePath": "views\\270074e8-314a-4c30-bace-d239228ee171.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2769d1bf-fa95-4a90-b537-7579e7622ea1",
             "Value": {
                 "id": "849ff0c2-a2a2-4ef7-8651-0a4d02a28217",
                 "resourcePath": "sprites\\spr_briefcase\\spr_briefcase.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2b7abdd8-64e8-485f-ae1c-e803cc9033b3",
+            "Value": {
+                "id": "702d4844-32ec-4b54-8f60-2aeb1b2abd13",
+                "resourcePath": "views\\2b7abdd8-64e8-485f-ae1c-e803cc9033b3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -295,6 +391,14 @@
             }
         },
         {
+            "Key": "362d7609-1174-415a-903a-89e5aa263075",
+            "Value": {
+                "id": "219a9ca9-5fa9-43cd-9f09-fd796d690b6a",
+                "resourcePath": "views\\362d7609-1174-415a-903a-89e5aa263075.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3701ee09-c012-4c8e-8fe6-1570df52a0a7",
             "Value": {
                 "id": "3848b9b8-50d0-449c-8e96-cb1e99201bed",
@@ -311,11 +415,59 @@
             }
         },
         {
+            "Key": "37e387bc-e698-45ca-83ff-919bd683e32a",
+            "Value": {
+                "id": "3fb6c285-df1b-44b2-b0cb-1fb0a4df2b8b",
+                "resourcePath": "views\\37e387bc-e698-45ca-83ff-919bd683e32a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "38c56f2f-51f4-4ea4-97ad-2f50dd6bf8af",
+            "Value": {
+                "id": "b924f521-4f57-43dc-9661-f73eb65cca98",
+                "resourcePath": "datafiles_yy\\cutsceneRoomRestart\\cutsceneRoomRestart.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "3957da5f-48c5-4076-822f-d272cf113a00",
+            "Value": {
+                "id": "e23fe9b3-004e-4f70-9bfd-39f65564da0f",
+                "resourcePath": "datafiles_yy\\cutsceneInstanceDestroy\\cutsceneInstanceDestroy.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "39736b69-521d-4b75-a9e2-de1995025806",
             "Value": {
                 "id": "c798df10-1e4b-404a-af26-5f06f828ccba",
                 "resourcePath": "sprites\\spr_incubus_dialogue\\spr_incubus_dialogue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3abc3efe-6977-4fb8-923b-5474586f3657",
+            "Value": {
+                "id": "15eb1951-9e75-40db-a579-3edce1f78ed0",
+                "resourcePath": "views\\3abc3efe-6977-4fb8-923b-5474586f3657.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3dedfafa-3df2-44eb-b27b-31728ff77b5a",
+            "Value": {
+                "id": "0815cadf-2924-47a0-a0ee-7541316b6bd2",
+                "resourcePath": "datafiles_yy\\cutsceneMoveCharacterY\\cutsceneMoveCharacterY.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "3e0b0008-8270-43c9-9167-053aca81717e",
+            "Value": {
+                "id": "121bae7b-5d9c-456e-9909-0016082cf38c",
+                "resourcePath": "datafiles_yy\\cutsceneReturnCamera\\cutsceneReturnCamera.gml.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -332,6 +484,22 @@
                 "id": "ed70e0dc-c980-4bde-972b-df957ed04488",
                 "resourcePath": "sounds\\demongrunt2\\demongrunt2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "42e877b2-3f93-4303-b5a9-c263f090b2ec",
+            "Value": {
+                "id": "3914ca32-cdd4-4859-ab8e-6b0feb6a5f96",
+                "resourcePath": "datafiles_yy\\cutsceneStopSound\\cutsceneStopSound.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "43cb1bdf-5433-467b-9e1e-78e03bca9ac2",
+            "Value": {
+                "id": "45037b3f-46a9-4511-bb26-e23d2bc239fe",
+                "resourcePath": "datafiles_yy\\cutsceneChangeVariable\\cutsceneChangeVariable.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -375,6 +543,38 @@
             }
         },
         {
+            "Key": "4a689933-89cc-4a37-8a12-8330c42397d6",
+            "Value": {
+                "id": "46e6f9b2-2848-45a4-b80a-b99797f9925c",
+                "resourcePath": "datafiles_yy\\cutsceneReturnCamera\\cutsceneReturnCamera.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4a9e53e4-4234-4bda-b702-c3433eb8b705",
+            "Value": {
+                "id": "e7c5a264-3d6a-4bcf-ba99-fba221a6b521",
+                "resourcePath": "datafiles_yy\\cutsceneStopAllSound\\cutsceneStopAllSound.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4b2fd30c-faa9-4acc-8a3c-12eb8fed3396",
+            "Value": {
+                "id": "304e58ff-57f0-4884-969f-550cd8c88ddf",
+                "resourcePath": "datafiles_yy\\cutsceneMoveCamera\\cutsceneMoveCamera.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4bb9e1ec-35b9-435e-b516-ef2b128eb88d",
+            "Value": {
+                "id": "2798f8b8-1282-4675-b008-fb26590bcf4c",
+                "resourcePath": "datafiles_yy\\cutsceneMoveCharacter\\cutsceneMoveCharacter.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "4c1c6187-883c-459b-b40e-d2e51e5027d7",
             "Value": {
                 "id": "19f4e1d0-6cd7-4115-b752-fb1d8982ba95",
@@ -388,6 +588,22 @@
                 "id": "a8ff951b-3248-4cfd-a044-d5e6c593b754",
                 "resourcePath": "views\\4ce726ff-7194-4a83-84c6-6807b1b9b476.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4d0ab897-06f3-4717-b231-509c9cb18254",
+            "Value": {
+                "id": "5a77bc18-2bf9-437f-af51-f89ce1dc5faf",
+                "resourcePath": "datafiles_yy\\cutscenePlayMusic\\cutscenePlayMusic.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4f42790f-527e-4a14-82f5-32d3b90fcd82",
+            "Value": {
+                "id": "7baee6a4-e9ca-4711-840f-c6c075e98cb9",
+                "resourcePath": "scripts\\cutsceneExecuteScript\\cutsceneExecuteScript.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -423,6 +639,14 @@
             }
         },
         {
+            "Key": "555fa961-80a8-4fbe-aea9-51f5b5c4c48a",
+            "Value": {
+                "id": "8cdff066-e7bb-448d-a6de-3e911afaf307",
+                "resourcePath": "datafiles_yy\\cutsceneEndAction\\cutsceneEndAction.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "55d85b7a-90db-45d1-86a2-a039d1a6dfce",
             "Value": {
                 "id": "28c4211d-355c-4051-8e4f-7d2069c80750",
@@ -439,11 +663,27 @@
             }
         },
         {
+            "Key": "57a19d43-dbf2-4b96-94e3-eb36893a8b35",
+            "Value": {
+                "id": "30184fe2-eab8-4d30-839a-b6c1e6f9d9d9",
+                "resourcePath": "scripts\\cutsceneInstanceCreate\\cutsceneInstanceCreate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "58320cff-d793-457b-8bf6-f7e551370391",
             "Value": {
                 "id": "3633ea74-7c1a-40a6-b039-606e287c304a",
                 "resourcePath": "scripts\\sc_fade_in\\sc_fade_in.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5858dbcc-8f58-4401-a7f3-e9fad4a4a1a3",
+            "Value": {
+                "id": "dc6a2ff0-ff5c-488b-881c-a89ccc90ddc3",
+                "resourcePath": "datafiles_yy\\cutsceneRoomNext\\cutsceneRoomNext.gml.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -471,11 +711,27 @@
             }
         },
         {
+            "Key": "5edd2c9f-1486-4933-a1df-23e015deec00",
+            "Value": {
+                "id": "10b977c1-a1eb-4ec4-afe0-2383bbab540b",
+                "resourcePath": "scripts\\cutsceneEndAction\\cutsceneEndAction.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5f4ab05d-75ab-4573-9cff-108ad7debd1e",
             "Value": {
                 "id": "bf5e4ecd-0fc3-468c-90f6-67ff92e30bf5",
                 "resourcePath": "sprites\\patient_dialogue\\patient_dialogue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5ffa78ba-384e-4876-af18-8b882cf9fd76",
+            "Value": {
+                "id": "edf5c466-2016-4174-85fd-3f6e540717ad",
+                "resourcePath": "datafiles_yy\\cutsceneWait\\cutsceneWait.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -487,6 +743,14 @@
             }
         },
         {
+            "Key": "62db5677-5a5b-4b23-b254-63dac245898a",
+            "Value": {
+                "id": "ff6cea76-6d98-4bd2-95f7-31b13c2b5f58",
+                "resourcePath": "scripts\\cutsceneInstanceDestroy\\cutsceneInstanceDestroy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "62f89435-1a11-4c4b-9eb9-e56cbb9d9fb9",
             "Value": {
                 "id": "0a12f75f-acb1-4325-a933-8804bbce49a4",
@@ -495,11 +759,51 @@
             }
         },
         {
+            "Key": "63fa0ecb-4ee3-44b9-8fb0-d4bb4f95c946",
+            "Value": {
+                "id": "06c062c3-ff37-4c6f-ab01-9eca31b72ffb",
+                "resourcePath": "scripts\\cutsceneReturnCamera\\cutsceneReturnCamera.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "648132a2-7ff2-4fd5-9aed-1eeb35cd38da",
+            "Value": {
+                "id": "19606801-a3de-4996-99d3-ef6d371e432b",
+                "resourcePath": "datafiles_yy\\cutsceneTalk\\cutsceneTalk.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "674f9c73-585b-41fd-b4e0-82d09b6c6c08",
+            "Value": {
+                "id": "770f928a-91ac-4f78-8337-2c4b60dc6cf8",
+                "resourcePath": "scripts\\cutscenePlayMusic\\cutscenePlayMusic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "68c43230-5271-472c-9c06-b82675dbc3cd",
+            "Value": {
+                "id": "60b36e84-0609-4f59-8691-6d8f8e169f5f",
+                "resourcePath": "scripts\\cutsceneBlack10\\cutsceneBlack10.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "691ab571-17d1-48bf-91b2-a9dadbcd67e2",
             "Value": {
                 "id": "6590c494-cefd-4b9f-8f62-e0e69be7a608",
                 "resourcePath": "sprites\\boss_stand\\boss_stand.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a13bb94-1893-4ffd-9e47-ce65374af4ce",
+            "Value": {
+                "id": "29746ad2-d57f-4124-a73a-acfabbc0202c",
+                "resourcePath": "scripts\\cutsceneRoomRestart\\cutsceneRoomRestart.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -519,6 +823,22 @@
             }
         },
         {
+            "Key": "6f04fff7-4b5e-47b3-b0b0-02e3a35923ca",
+            "Value": {
+                "id": "51f7abee-fbc6-41c7-a355-256e77250053",
+                "resourcePath": "scripts\\cutsceneTalk\\cutsceneTalk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6f485db9-3e0c-4b5f-86e6-b047c6e2b233",
+            "Value": {
+                "id": "caf60b8c-908e-4955-94ee-bf6f617299eb",
+                "resourcePath": "scripts\\cutsceneMoveCharacterY\\cutsceneMoveCharacterY.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6fd06f05-d886-4b3c-88c7-eb98da5bb9d3",
             "Value": {
                 "id": "2b4e73e5-9ab2-4e07-990e-55b39854a3ec",
@@ -535,6 +855,30 @@
             }
         },
         {
+            "Key": "7041deaf-912a-4e8d-88c7-43821f89c3e8",
+            "Value": {
+                "id": "74752b64-af2d-40ab-95ab-02566995bf16",
+                "resourcePath": "datafiles_yy\\cutsceneChangeVariable\\cutsceneChangeVariable.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7118c399-7f19-465f-a0b0-a4e8299e8fe8",
+            "Value": {
+                "id": "b9def2d3-745b-485d-9730-115db122acd9",
+                "resourcePath": "scripts\\cutsceneRoomNext\\cutsceneRoomNext.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7291002d-2fd9-45af-aa87-2fc6bc84be9e",
+            "Value": {
+                "id": "ba98cdd8-3b17-4483-9711-8651524e2759",
+                "resourcePath": "views\\7291002d-2fd9-45af-aa87-2fc6bc84be9e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "72dd691d-9ada-42f6-bdfb-46d1399a029a",
             "Value": {
                 "id": "d8f56b4a-1836-4228-b438-f48f1d7d3a2b",
@@ -543,10 +887,26 @@
             }
         },
         {
+            "Key": "75c41e9b-86d0-48e0-962f-e3cb57836eb7",
+            "Value": {
+                "id": "6cb7f0f4-abf2-4b59-b878-9e6a99e090a5",
+                "resourcePath": "views\\75c41e9b-86d0-48e0-962f-e3cb57836eb7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "767448f9-1fb3-4c76-b02d-19bafa59e912",
             "Value": {
                 "id": "dce4c8c4-5fa6-468a-8b1e-bc6ab10b0494",
                 "resourcePath": "views\\767448f9-1fb3-4c76-b02d-19bafa59e912.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "79f43cc3-d70d-41a2-b4d7-65bd8202a185",
+            "Value": {
+                "id": "86b2aa94-63e1-42a8-8d30-4b285a13d3cf",
+                "resourcePath": "views\\79f43cc3-d70d-41a2-b4d7-65bd8202a185.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -583,6 +943,38 @@
             }
         },
         {
+            "Key": "7ca2b3a6-37c5-4a11-891f-0d3efd1faf7a",
+            "Value": {
+                "id": "0e25bd60-e504-4718-88b8-8a0f3b885ec2",
+                "resourcePath": "datafiles_yy\\cutsceneWide\\cutsceneWide.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7cebe9b5-cf05-41b8-bf8b-2056e7c4848a",
+            "Value": {
+                "id": "397df2fc-abc1-4ff0-b9f1-4e953c170042",
+                "resourcePath": "datafiles_yy\\cutsceneInstanceDestroy\\cutsceneInstanceDestroy.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7d466764-689f-4d88-b194-346583f60ed5",
+            "Value": {
+                "id": "6d3c7613-eb6e-4fc2-95b2-a04064e036bd",
+                "resourcePath": "datafiles_yy\\cutsceneFadeIn\\cutsceneFadeIn.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7e0a270d-c146-4cb7-9e35-d86b0dec97c7",
+            "Value": {
+                "id": "fe8e1f1f-980c-4ea4-a819-d90ef5733b1e",
+                "resourcePath": "views\\7e0a270d-c146-4cb7-9e35-d86b0dec97c7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8093ba0e-4a6a-4c74-9642-1fa5419a570d",
             "Value": {
                 "id": "1eed1888-476d-4223-aba8-e6f37b9e1326",
@@ -596,6 +988,14 @@
                 "id": "c42bb982-bc31-4c07-a745-ade74f2cdccc",
                 "resourcePath": "sprites\\incubus_dialogue_angry\\incubus_dialogue_angry.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "81039983-829a-4183-8948-2c563fd788f3",
+            "Value": {
+                "id": "4b7159d1-d966-4e84-afff-29942f4796fc",
+                "resourcePath": "datafiles_yy\\cutsceneRoomRestart\\cutsceneRoomRestart.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -631,6 +1031,14 @@
             }
         },
         {
+            "Key": "8310a17a-a9e4-4b38-914b-d22863a88c82",
+            "Value": {
+                "id": "35bbe90f-b56e-4905-aabb-8eb2638b9c2c",
+                "resourcePath": "views\\8310a17a-a9e4-4b38-914b-d22863a88c82.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8464c00a-f415-4b96-b43e-ee7e855850d7",
             "Value": {
                 "id": "b0d1198f-9249-4bcd-9b5b-ae898a96c58b",
@@ -644,6 +1052,22 @@
                 "id": "4d467f24-ffab-4ea6-ac6a-269748814929",
                 "resourcePath": "sprites\\spr_patient_dialogue_sad\\spr_patient_dialogue_sad.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "85de6fcd-6c45-461a-a7cd-320fb4445fe5",
+            "Value": {
+                "id": "c449d2d3-da09-4328-8fb7-8d65ec5c1548",
+                "resourcePath": "views\\85de6fcd-6c45-461a-a7cd-320fb4445fe5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "86a05051-2b31-4ca6-b7a2-ebc80f278a4e",
+            "Value": {
+                "id": "86052fe0-5e2d-4380-a68d-cb4b18aed6ec",
+                "resourcePath": "views\\86a05051-2b31-4ca6-b7a2-ebc80f278a4e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -687,6 +1111,14 @@
             }
         },
         {
+            "Key": "8b9e5640-aee2-4327-acb4-72a028d5bdb2",
+            "Value": {
+                "id": "8f4d14fe-bacb-4cae-96d9-342242ca0dda",
+                "resourcePath": "datafiles_yy\\cutsceneInstanceCreate\\cutsceneInstanceCreate.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "8be54e0d-2a39-43d7-9d6d-3463a5391f7f",
             "Value": {
                 "id": "5f9f7b59-e0fb-4087-b978-3e7640559bd0",
@@ -695,11 +1127,27 @@
             }
         },
         {
+            "Key": "8c5bfabe-1ee2-4055-88c0-c4634daae8e7",
+            "Value": {
+                "id": "c549dd75-b7fd-40a2-8f95-b0c776ff3a96",
+                "resourcePath": "datafiles_yy\\cutsceneEndAction\\cutsceneEndAction.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "8edee428-64b2-4483-b3c1-b59c0123f465",
             "Value": {
                 "id": "369a9441-b833-484a-80ba-9ffbed1b2559",
                 "resourcePath": "sounds\\demondeath2\\demondeath2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8efc70e6-b52c-45ad-afa4-02587613e52a",
+            "Value": {
+                "id": "12f91b67-8824-4464-b040-16d157ad9a29",
+                "resourcePath": "datafiles_yy\\cutsceneRoomNext\\cutsceneRoomNext.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -716,6 +1164,14 @@
                 "id": "710f21aa-21fe-4b5a-a711-68b5afe98d62",
                 "resourcePath": "sounds\\elevatording\\elevatording.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "953e0d9b-3f8b-47fd-a333-eb3128bb537b",
+            "Value": {
+                "id": "327e50ee-541c-474d-ad18-1ec8d79a25f8",
+                "resourcePath": "datafiles_yy\\cutscenePlayMusic\\cutscenePlayMusic.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -740,6 +1196,22 @@
                 "id": "1ed3f059-0a9b-4fc1-92ac-6c7932435149",
                 "resourcePath": "views\\97a2981b-54e1-4775-b009-a21b59a912bd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "97e8a32a-0b29-42d2-a223-c6202d78a1ed",
+            "Value": {
+                "id": "666537cd-c594-4a9c-90f4-002e84a112ed",
+                "resourcePath": "views\\97e8a32a-0b29-42d2-a223-c6202d78a1ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "97f77fe8-53ff-4a2e-9c5c-c5eda8354092",
+            "Value": {
+                "id": "18f21b0f-de8f-48da-b76c-25492c2351d3",
+                "resourcePath": "datafiles_yy\\cutsceneMoveCharacter\\cutsceneMoveCharacter.gml.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -799,6 +1271,14 @@
             }
         },
         {
+            "Key": "a1019bac-b446-49bc-9aca-0a2d7a754cea",
+            "Value": {
+                "id": "f5d76ef6-c91c-4ca3-b336-fb1bc51751aa",
+                "resourcePath": "scripts\\cutsceneWait\\cutsceneWait.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a1086d0c-5347-49e3-8f46-18b869c92c1a",
             "Value": {
                 "id": "8d844a6a-c112-4a59-b292-550b28ac9d53",
@@ -812,6 +1292,14 @@
                 "id": "66744197-6e82-49da-9b89-cbb93e496e66",
                 "resourcePath": "views\\a1a82318-1e41-4edc-9853-2eb8deb3c6f0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a22291df-25ee-44d2-a0fd-9e26c9ace27f",
+            "Value": {
+                "id": "08aa8536-51ad-4fe5-9a0b-7720f1630c3f",
+                "resourcePath": "scripts\\cutsceneBlack\\cutsceneBlack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -855,6 +1343,14 @@
             }
         },
         {
+            "Key": "a9760fbb-8d22-42f5-a4e4-538d1c6fd52b",
+            "Value": {
+                "id": "35c21a48-43c6-4272-8b8c-0469ad96c34a",
+                "resourcePath": "views\\a9760fbb-8d22-42f5-a4e4-538d1c6fd52b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ab1abfd5-ab0a-4099-83d2-1cd7c4c10d2e",
             "Value": {
                 "id": "a07449d9-009d-437d-b01c-afb00f5cc00f",
@@ -863,11 +1359,35 @@
             }
         },
         {
+            "Key": "ab45e71c-5be8-4dd3-89bc-99439034d06d",
+            "Value": {
+                "id": "f196be74-7472-4756-a4c6-1cd66445a930",
+                "resourcePath": "datafiles_yy\\cutsceneWait\\cutsceneWait.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "abf6a53d-4445-4a1b-a51e-7bc4634ba666",
+            "Value": {
+                "id": "49ac0d39-6e16-4541-b00d-e38bbc746922",
+                "resourcePath": "scripts\\cutsceneChangeVariable11\\cutsceneChangeVariable11.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b03236f9-ceb4-4f8a-a2e8-9b3a3506a0a6",
             "Value": {
                 "id": "270b1135-f1bc-4e92-aa35-62e1fe4936ee",
                 "resourcePath": "sprites\\spr_mask\\spr_mask.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b1838362-a4d3-4c58-a394-7f44839d9122",
+            "Value": {
+                "id": "fb7a2605-af3f-49bd-87e2-2f31fdbf70b3",
+                "resourcePath": "scripts\\cutsceneWide\\cutsceneWide.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -892,6 +1412,30 @@
                 "id": "bfe28a9b-75ee-431f-94fc-b4520e4620bb",
                 "resourcePath": "sprites\\patient_dialogue_sad\\patient_dialogue_sad.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b488d981-c6a1-4730-8ee5-ef2e11af5e0d",
+            "Value": {
+                "id": "1ac6144b-4ffe-4d13-ac82-52c260601eb0",
+                "resourcePath": "datafiles_yy\\cutsceneTalk\\cutsceneTalk.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b4dff83d-0691-41e2-89ec-bc09841aadad",
+            "Value": {
+                "id": "4411fb0a-c287-4141-bfce-6a2cf593b192",
+                "resourcePath": "views\\b4dff83d-0691-41e2-89ec-bc09841aadad.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b6c81f94-e6d9-47c7-93d5-859706ada6b8",
+            "Value": {
+                "id": "0b20670c-a808-4d4b-a1bb-2b5b705938be",
+                "resourcePath": "scripts\\cutsceneChangeVariable\\cutsceneChangeVariable.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -927,6 +1471,14 @@
             }
         },
         {
+            "Key": "bcfcb5fb-9294-4945-a2f7-bc4714e70c62",
+            "Value": {
+                "id": "f1d55592-e7ee-4daa-a202-4330f6b98bc9",
+                "resourcePath": "datafiles_yy\\cutsceneExecuteScript\\cutsceneExecuteScript.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "bd327bb5-b922-44eb-94b0-77911e11d913",
             "Value": {
                 "id": "ef392b12-1d2d-4fae-8abe-5110eaa4b02a",
@@ -943,6 +1495,14 @@
             }
         },
         {
+            "Key": "be1602df-cd38-4e58-bb74-a3b81146a9bc",
+            "Value": {
+                "id": "84ec42b2-4973-4195-a247-4bfd6e541c9e",
+                "resourcePath": "datafiles_yy\\cutsceneFadeOut\\cutsceneFadeOut.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "be220c1f-d63b-4eb7-b94d-04285e3ef73b",
             "Value": {
                 "id": "2505e4d7-1e9f-40f5-829b-e8cb07e6c17f",
@@ -955,6 +1515,14 @@
             "Value": {
                 "id": "2c00aaff-c386-4356-99a9-6efbda42f658",
                 "resourcePath": "datafiles_yy\\oAudioManager.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "bff1cee2-8d30-42e8-a5b1-0ea9f4b4a3dc",
+            "Value": {
+                "id": "6d0325ba-50a8-45d0-99ae-cf2fe30cd60d",
+                "resourcePath": "datafiles_yy\\cutsceneMoveCamera\\cutsceneMoveCamera.gml.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -999,6 +1567,14 @@
             }
         },
         {
+            "Key": "c68d7452-78de-41fe-b22f-57d88a3e1bb2",
+            "Value": {
+                "id": "355f0b5f-4473-4325-b599-0f1e3f114d37",
+                "resourcePath": "scripts\\cutsceneStopSound\\cutsceneStopSound.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c6d40665-a0c3-4f5d-9eb3-ac221daa5530",
             "Value": {
                 "id": "d5e11b15-ac6e-4428-8e57-d7a1e15ecd3f",
@@ -1007,11 +1583,43 @@
             }
         },
         {
+            "Key": "c7eca4a5-ffdd-46f0-94a6-5dc8e576c0c4",
+            "Value": {
+                "id": "f859c848-c013-41f3-9596-8af8fb041308",
+                "resourcePath": "views\\c7eca4a5-ffdd-46f0-94a6-5dc8e576c0c4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c92e97df-8c28-4698-bc06-662a54f6be0a",
+            "Value": {
+                "id": "e237c54d-483c-4e4a-add7-c4fa9831d963",
+                "resourcePath": "datafiles_yy\\cutsceneInstanceCreate\\cutsceneInstanceCreate.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "c9a09fe7-b581-4467-a03b-5893793e787b",
+            "Value": {
+                "id": "5de3959f-85f8-48de-8c2c-236c60c1e879",
+                "resourcePath": "datafiles_yy\\cutsceneBlack\\cutsceneBlack.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "cae0794b-4db1-4753-adbb-803c7260c1b8",
             "Value": {
                 "id": "890de469-4e84-4c42-b085-879b72430853",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cb7b335f-1501-4dd0-87d1-0241c2c1301a",
+            "Value": {
+                "id": "1f921926-8216-490f-9455-1e8ea34ead0c",
+                "resourcePath": "datafiles_yy\\cutsceneBlack\\cutsceneBlack.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1039,6 +1647,22 @@
             }
         },
         {
+            "Key": "cd6a9478-6f67-4ac8-99e6-11684501c79c",
+            "Value": {
+                "id": "fcd289f2-0eae-46c7-b17b-9c7e6b84a656",
+                "resourcePath": "datafiles_yy\\cutsceneFadeIn\\cutsceneFadeIn.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "cda3e44a-be77-4ac8-9116-a60fdc380b0b",
+            "Value": {
+                "id": "634fb07f-c9cd-441b-b745-c6bb31a9f1ff",
+                "resourcePath": "views\\cda3e44a-be77-4ac8-9116-a60fdc380b0b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ce01b3be-4286-41a2-9bc0-e3d833f90e40",
             "Value": {
                 "id": "6ccaf5c0-db25-4e02-a9e6-ca478732541e",
@@ -1052,6 +1676,14 @@
                 "id": "2bc8e276-08e6-4a7d-9274-e8dee33e1966",
                 "resourcePath": "sprites\\sprite28\\sprite28.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ce7b53e6-04fa-46fa-b0fa-4e27ab0d29d8",
+            "Value": {
+                "id": "4e96ca81-94f8-47e7-85b2-86e8c1cd519f",
+                "resourcePath": "scripts\\cutsceneMoveCharacter\\cutsceneMoveCharacter.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1079,11 +1711,35 @@
             }
         },
         {
+            "Key": "d4509a86-14b0-4e5a-90b8-f90d4b48175d",
+            "Value": {
+                "id": "d92ec3dc-6112-408f-b8a0-2c4623cdf033",
+                "resourcePath": "datafiles_yy\\cutsceneStopAllSound\\cutsceneStopAllSound.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "d46a6532-d240-4cb5-b8ed-518ddf12720c",
             "Value": {
                 "id": "a67fe463-3298-4308-a73e-5f5e6fa99179",
                 "resourcePath": "sprites\\spr_spike\\spr_spike.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d4f10690-16a2-49df-a599-e9963af22cba",
+            "Value": {
+                "id": "5fad9af2-8c32-439c-9f63-a3e925787471",
+                "resourcePath": "scripts\\cutsceneStopAllSound\\cutsceneStopAllSound.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d51338d7-cacc-447f-b91a-3a978b2da98f",
+            "Value": {
+                "id": "41ffd5e0-a8e0-4922-a6e3-d56463294072",
+                "resourcePath": "views\\d51338d7-cacc-447f-b91a-3a978b2da98f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1095,11 +1751,27 @@
             }
         },
         {
+            "Key": "de4c9173-934a-4ceb-b3a5-0288af7bc02d",
+            "Value": {
+                "id": "179cc5c6-4dff-4beb-a825-345d7681f6cc",
+                "resourcePath": "views\\de4c9173-934a-4ceb-b3a5-0288af7bc02d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dee3b056-07b0-4918-9f3a-e4435b2becc9",
             "Value": {
                 "id": "f44c0b76-0b02-4de7-a587-c092141c6a79",
                 "resourcePath": "sprites\\spr_attack_1\\spr_attack_1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e22d41c4-d1c9-449a-908e-4f2fb46bd95c",
+            "Value": {
+                "id": "6a702680-da56-442d-9333-24593e2446c0",
+                "resourcePath": "datafiles_yy\\cutsceneWide\\cutsceneWide.gml.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1135,6 +1807,22 @@
             }
         },
         {
+            "Key": "e7b8cf9d-30c9-4faa-b3ff-ce6d28c754ea",
+            "Value": {
+                "id": "8b5630e1-8a44-4772-a9aa-6fba02a173a6",
+                "resourcePath": "scripts\\cutsceneEndAction12\\cutsceneEndAction12.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "eaaa9317-9d6b-4750-8492-406424463034",
+            "Value": {
+                "id": "c60dc63e-2af0-4073-b2cf-4003c2e9b465",
+                "resourcePath": "datafiles_yy\\cutsceneExecuteScript\\cutsceneExecuteScript.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "ef967ad7-1868-4014-b895-4865a4eaa85a",
             "Value": {
                 "id": "3a29885e-1228-4aed-b390-dda9e1e4da14",
@@ -1143,11 +1831,43 @@
             }
         },
         {
+            "Key": "f02c2aba-df19-47de-81a9-fad8c2b71c57",
+            "Value": {
+                "id": "1eb66b22-7c6c-4f16-bb04-6488995a05bd",
+                "resourcePath": "datafiles_yy\\cutsceneFadeOut\\cutsceneFadeOut.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f13fae40-9be5-47f0-ba97-a2f7008cf628",
+            "Value": {
+                "id": "5abd2dad-8fd4-4336-ad76-86085b5bc515",
+                "resourcePath": "datafiles_yy\\cutsceneUnwide\\cutsceneUnwide.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "9b4e6018-fe1f-4d2a-8705-976d32b945cd",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f43a72ac-0d4c-4486-9b3c-1ff96ad3c277",
+            "Value": {
+                "id": "3bc5a0c2-72e8-464e-ad15-5101608229fc",
+                "resourcePath": "datafiles_yy\\cutscenePlaySound\\cutscenePlaySound.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f468bbf6-415f-4491-b52e-3d39387303b9",
+            "Value": {
+                "id": "11e5232f-f709-44a4-9730-3a58eb4ea8ec",
+                "resourcePath": "scripts\\cutscenePlaySound\\cutscenePlaySound.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1199,11 +1919,27 @@
             }
         },
         {
+            "Key": "f7ce0e8b-3c70-45d5-8688-1c7b394c4629",
+            "Value": {
+                "id": "01a54e5b-322d-4e35-b1a7-a994ed8d1cd2",
+                "resourcePath": "views\\f7ce0e8b-3c70-45d5-8688-1c7b394c4629.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f867b628-4e77-4983-9191-a9ee656c765f",
             "Value": {
                 "id": "24705317-4d75-40f8-a2b4-21270bcec2e1",
                 "resourcePath": "sprites\\incubus_dialogue\\incubus_dialogue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb05af41-5c56-47be-b92f-cb3cc6a280e3",
+            "Value": {
+                "id": "0eccffad-39ce-4b83-a9f0-c4c1b4f4f27a",
+                "resourcePath": "scripts\\cutsceneMoveCamera\\cutsceneMoveCamera.yy",
+                "resourceType": "GMScript"
             }
         },
         {

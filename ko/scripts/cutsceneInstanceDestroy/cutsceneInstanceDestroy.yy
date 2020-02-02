@@ -1,5 +1,5 @@
 {
-    "id": "23b0474b-c8ff-4ef1-984f-c49892eed4f7",
+    "id": "62db5677-5a5b-4b23-b254-63dac245898a",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutsceneInstanceDestroy",

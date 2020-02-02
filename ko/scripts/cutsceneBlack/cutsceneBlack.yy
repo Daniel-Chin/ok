@@ -1,5 +1,5 @@
 {
-    "id": "8514044b-4027-49ef-8d76-fbcf256f9a71",
+    "id": "a22291df-25ee-44d2-a0fd-9e26c9ace27f",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutsceneBlack",

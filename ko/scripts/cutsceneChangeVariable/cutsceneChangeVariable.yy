@@ -1,5 +1,5 @@
 {
-    "id": "4fd95842-4153-4b19-870a-6632767a86f0",
+    "id": "b6c81f94-e6d9-47c7-93d5-859706ada6b8",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutsceneChangeVariable",

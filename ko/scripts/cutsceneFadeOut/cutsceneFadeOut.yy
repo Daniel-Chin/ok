@@ -1,5 +1,5 @@
 {
-    "id": "46743a7e-9948-445f-a898-e2b55cdb2460",
+    "id": "0f37e0c2-f212-4d8a-b5dd-a2665ebfa6da",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "cutsceneFadeOut",
