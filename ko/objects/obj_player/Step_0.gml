@@ -2,6 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 
+var moving = false;
 if (can_jump > 0) {
 	can_jump -= global.spf;
 }
@@ -45,11 +46,13 @@ if (state == IDLE) {
 		facing = LEFT;
 		image_xscale = -1;
 		did_interrupt_recall = true;
+		moving = true;
 	} else if (keyboard_check(vk_right)) {
 		hspeed = hspeed * (1 - global.WALK_APPROACH) + global.WALK_SPEED * global.WALK_APPROACH;
 		facing = RIGHT;
 		image_xscale = 1;
 		did_interrupt_recall = true;
+		moving = true;
 	}
 	if (keyboard_check_pressed(global.KEY_ATTACK)) {
 		if (has_briefcase) {
@@ -64,7 +67,6 @@ if (state == IDLE) {
 	}
 	if (has_briefcase && keyboard_check_pressed(global.KEY_THROW) && throw_cooldown <= 0) {
 		has_briefcase = false;
-		sprite_index = spr_player_no_brief;
 		throw_cooldown = global.THROW_COOLDOWN;
 		my_briefcase = instance_create_layer(x, y, "Instances", obj_briefcase);
 		my_briefcase.state = my_briefcase.FLY;
@@ -149,5 +151,31 @@ if (state == BLOCKING) {
 	block_progress += global.spf;
 	if (block_progress > global.BLOCK_TIME) {
 		state = IDLE;
+	}
+}
+if (can_jump > 0) {
+	if (moving) {
+		image_speed = 1;
+		if (has_briefcase) {
+			sprite_index = spr_walk_brief;
+		} else {
+			sprite_index = spr_walk_no_brief;
+		}
+	} else {
+		image_speed = 1;
+		if (has_briefcase) {
+			sprite_index = spr_player_brief;
+		} else {
+			sprite_index = spr_player_no_brief;
+		}
+	}
+} else {
+	if (has_briefcase) {
+		sprite_index = spr_jump_brief;
+	} else {
+		sprite_index = spr_jump_no_brief;
+	}
+	if (image_index >= 2) {
+		image_speed = 0;
 	}
 }

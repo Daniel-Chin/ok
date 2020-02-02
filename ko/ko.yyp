@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "47c0f358-e235-43e7-8e7b-95e4df55c23b",
+            "Value": {
+                "id": "6efe0156-23e5-4e69-9dec-fb10d6740b54",
+                "resourcePath": "sprites\\spr_jump_no_brief\\spr_jump_no_brief.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "49b72257-bf98-4b8b-87a4-ff0130c2b185",
             "Value": {
                 "id": "e512e1a7-1a73-4025-a1f9-5da983b651d2",
@@ -159,11 +167,11 @@
             }
         },
         {
-            "Key": "56d5f05a-826d-4aed-8534-f4fe251755f2",
+            "Key": "5a2eeed3-efd6-42cd-9496-5c36d28ca67b",
             "Value": {
-                "id": "3dd19d14-a7ca-4c97-8a29-d238089b75a2",
-                "resourcePath": "scripts\\sc_move_all_dialogs\\sc_move_all_dialogs.yy",
-                "resourceType": "GMScript"
+                "id": "46ed0a79-6fe5-4aff-9e17-a0ee7153a303",
+                "resourcePath": "sprites\\spr_jump_brief\\spr_jump_brief.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "ab1abfd5-ab0a-4099-83d2-1cd7c4c10d2e",
+            "Value": {
+                "id": "a07449d9-009d-437d-b01c-afb00f5cc00f",
+                "resourcePath": "sprites\\spr_walk_brief\\spr_walk_brief.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b03236f9-ceb4-4f8a-a2e8-9b3a3506a0a6",
             "Value": {
                 "id": "270b1135-f1bc-4e92-aa35-62e1fe4936ee",
@@ -308,6 +324,14 @@
                 "id": "a31d5fbd-0aa6-4a58-b46f-21cfef9d51e2",
                 "resourcePath": "objects\\obj_projectile\\obj_projectile.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b290448e-35bf-4d0a-abc5-33708fe032bd",
+            "Value": {
+                "id": "db73cf6a-d0c3-49cf-b97c-9ac0a2d5ec7f",
+                "resourcePath": "sprites\\spr_walk_no_brief\\spr_walk_no_brief.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -416,7 +440,8 @@
         }
     ],
     "script_order": [
-        "0af08175-446d-440c-b560-9d5d026a00f2"
+        "0af08175-446d-440c-b560-9d5d026a00f2",
+        "9688f69d-a970-48f7-9b53-ff54aa674021"
     ],
     "tutorial": ""
 }
