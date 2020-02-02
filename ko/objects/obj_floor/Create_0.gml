@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-FRICTION = 10;
-hp = 3;
-can_jump = -1;
-last_ground = -1;
+path = [];
+ready = false;
+segment_i = 0;
+progress = 1;
