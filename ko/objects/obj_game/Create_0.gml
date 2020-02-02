@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+global.WIDTH = 1920;
+global.HEIGHT = 1080;
+
 global.GRAVITY = 50;
 global.JUMP_POWER = 10;
 global.WALK_SPEED = 5;
@@ -16,11 +19,11 @@ global.KEY_THROW = ord("D");
 global.ATTACK_FORWARD_POWER = .35;
 global.ATTACK_PREPARE_TIME = .2;
 global.ATTACK_FORWARD_TIME = .25;
-global.ATTACK_RECOVER_TIME = .1;
+global.ATTACK_RECOVER_TIME = .3;
 global.SMASH_FORWARD_POWER = .7;
 global.SMASH_PREPARE_TIME = .3;
 global.SMASH_FORWARD_TIME = .2;
-global.SMASH_RECOVER_TIME = .2;
+global.SMASH_RECOVER_TIME = .4;
 global.INVINCIBLE_TIME = 1;	// You become invincible when you are attacked
 global.INVINCIBLE_FREE_TIME = .5;	// During this time you can control the character while it's invincible
 
@@ -48,7 +51,6 @@ global.ENEMY_WALK_APPROACH = 0.02;
 global.ENEMY_RETURN = 50;
 global.ENEMY_JUMP_RARE = 10;	// in seconds
 global.ENEMY_JUMP_POWER = 15;
-global.RANGED_ENEMY_X_TOLERANCE = 400;
 global.RANGED_ENEMY_Y_TOLERANCE = 50;
 global.RANGED_ENEMY_FIRE_INTERVAL = 3;
 global.PROJECTILE_SPEED = 5;
@@ -62,3 +64,10 @@ global.root_dialog = -1;
 global.CHARACTER_PER_SECOND = 20;
 global.DIALOG_STAY = 3;
 global.DIALOG_FADE = 1;
+
+global.CAMERA_SPEED = 2000;
+global.room_col = 0;
+global.room_row = 0;
+
+global.font = font_add("PixelOperator8-Bold.ttf", 8, true, false, 32, 128);
+draw_set_font(global.font);

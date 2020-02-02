@@ -13,7 +13,7 @@ switch (stage) {
 			timer = 0;
 			stage ++;
 			// exit
-			audio_play_sound(mus_room, 0, false);
+			audio_play_sound(theroom, 0, false);
 		}
 		break;
 	case -5:
@@ -34,14 +34,69 @@ switch (stage) {
 		break;
 	case -3:
 		// repeated
+		if (timer >= 2) {
+			timer = 0;
+			stage ++;
+			// exit
+		}
+		break;
+	case -2:
+		// repeated
 		if (timer >= 1) {
 			timer = 0;
 			stage ++;
-			stage = 0;
+			// exit
+		}
+		break;
+	case -1:
+		// repeated
+		if (timer >= 1) {
+			timer = 0;
+			stage ++;
 			// exit
 		}
 		break;
 	case 0:
+		// repeated
+		if (timer >= 2) {
+			timer = 0;
+			stage ++;
+			// exit
+		}
+		break;
+	case 1:
+		// repeated
+		if (timer >= 1) {
+			timer = 0;
+			stage ++;
+			// exit
+		}
+		break;
+	case 2:
+		// repeated
+		if (timer >= 1) {
+			timer = 0;
+			stage ++;
+			// exit
+		}
+		break;
+	case 3:
+		// repeated
+		if (timer >= 3) {
+			timer = 0;
+			stage ++;
+			stage = 6;		////
+			// exit
+		}
+		break;
+
+
+
+
+
+
+
+	case 6:
 		// repeated
 		if (timer >= 0) {
 			timer = 0;
@@ -50,7 +105,7 @@ switch (stage) {
 			sprite_index = spr_chairroom_cross_nopatient;
 		}
 		break;
-	case 1:
+	case 7:
 		// repeated
 		if (timer >= 3) {
 			timer = 0;
@@ -59,7 +114,7 @@ switch (stage) {
 			visible = false;
 		}
 		break;
-	case 2:
+	case 8:
 		// repeated
 		if (timer >= 1) {
 			timer = 0;
@@ -69,7 +124,7 @@ switch (stage) {
 			visible = true;
 		}
 		break;
-	case 3:
+	case 9:
 		// repeated
 		if (timer >= 2) {
 			timer = 0;
@@ -79,4 +134,4 @@ switch (stage) {
 		}
 		break;
 }
-show_debug_message(stage);////
+show_debug_message(stage);

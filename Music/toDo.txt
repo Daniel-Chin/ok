@@ -1,0 +1,13 @@
+BGM
+-intro/in the room (soft)
+-"Pick your brain" (into the mind) 
+-boss battle
+=game over
+
+SFX:
+-swings briefcase
+=runs
+=jumps
+=trhow briefcase
+=demon sound 1, 2, 3
+=

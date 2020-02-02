@@ -3,7 +3,7 @@
 if (state == 1) exit;
 if (! combo_counted) {
 	combo_counted = true;
-	player.combo ++;
+	player.combo = (player.combo + 1) % 3;
 	player.combo_timeout = global.COMBO_TIMEOUT;
 }
 if (sc_damage(other, damage, facing)) {

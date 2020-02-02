@@ -1,5 +1,6 @@
 block 2-3 frames
 shader while recall
+ranged only attack when it is in the camera view
 
 Health system for player: dialog. auto regen. 
 

@@ -72,16 +72,20 @@ if (state == IDLE) {
 			attack_stage = PREPARE;
 			switch (combo) {
 				case 0:
+				case 3:
 					sprite_index = spr_attack_1;
 					image_index = 0;
+					sc_sched_sound(briefcaseswing1, global.ATTACK_PREPARE_TIME);
 					break;
 				case 1:
 					sprite_index = spr_attack_2;
 					image_index = 0;
+					sc_sched_sound(briefcaseswing2, global.ATTACK_PREPARE_TIME);
 					break;
 				case 2:
 					sprite_index = spr_attack_3;
 					image_index = 0;
+					sc_sched_sound(briefcaseswing3, global.SMASH_PREPARE_TIME);
 					break;
 			}
 			image_speed = 1;

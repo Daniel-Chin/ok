@@ -1,4 +1,4 @@
-var dialog = instance_create_layer(room_width * (.5 + argument2 * 1.7), room_height * .9, "Dialog", obj_dialog);
+var dialog = instance_create_layer(0, 0, "Dialog", obj_dialog);
 dialog.speaker_sprite = argument0;
 dialog.text = argument1;
 dialog.offset_direction = argument2;
