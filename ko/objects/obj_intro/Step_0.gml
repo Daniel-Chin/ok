@@ -3,7 +3,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 timer += global.spf * SPEED;
-sc_loop(u_room);
 switch (stage) {
 	case -7:
 		// nothing
@@ -14,6 +13,7 @@ switch (stage) {
 			timer = 0;
 			stage ++;
 			// exit
+			sc_loop(u_room);
 		}
 		break;
 	case -5:
@@ -258,6 +258,9 @@ switch (stage) {
 			stage ++;
 			// exit
 			sc_dialog(incubus_dialogue, "Now, just sit tight for a bit.", -1);
+			sc_fade_out(u_room);
+			sc_fade_out(u_roomcont);
+			//audio_stop_sound(global.currentSong);
 		}
 		break;
 	case 25:
@@ -269,6 +272,7 @@ switch (stage) {
 			sprite_index = spr_transition;
 			image_xscale = 2;
 			image_yscale = 2;
+			audio_play_sound(u_transition, 0, false);
 		}
 		break;
 }
