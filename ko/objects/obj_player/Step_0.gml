@@ -35,6 +35,11 @@ if (hp_regen_timeout > 0) {
 	}
 }
 
+//Dad
+if(hp < 0){
+	room_goto(5);
+}
+
 if (state == IDLE) {
 	var did_interrupt_recall = false;
 	if (can_jump > 0 && keyboard_check_pressed(global.KEY_JUMP)) {

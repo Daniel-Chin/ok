@@ -242,7 +242,7 @@
             "Key": "2489e154-6535-4090-bb0f-8c8c54887f37",
             "Value": {
                 "id": "aae6e15f-709e-4f9f-aefb-5debbad054df",
-                "resourcePath": "objects\\obj_trigger_once\\obj_trigger_once.yy",
+                "resourcePath": "objects\\obj_trigger\\obj_trigger.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -308,6 +308,14 @@
                 "id": "e31d67e6-6195-4b6f-9fd0-901ae8165586",
                 "resourcePath": "sprites\\door\\door.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "33f02fbe-6d4b-4189-a94f-7d0178288bc3",
+            "Value": {
+                "id": "84b24cc2-0220-4f87-a192-2392dcb57676",
+                "resourcePath": "objects\\obj_trigger_once\\obj_trigger_once.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -676,6 +684,14 @@
                 "id": "51e0b5b7-ed7e-48ca-94cc-9ba7047d8e09",
                 "resourcePath": "objects\\obj_dialog\\obj_dialog.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7b97f6b8-f645-444d-be59-1594f2a40449",
+            "Value": {
+                "id": "706be47b-63c1-49e0-b13a-5174c458b729",
+                "resourcePath": "rooms\\gameover\\gameover.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1212,6 +1228,14 @@
                 "id": "c8cc7de4-d693-416b-87fb-5f78e948391c",
                 "resourcePath": "sounds\\u_boss2\\u_boss2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "cdb398a7-554c-4e0a-9d8c-33050d53fa4a",
+            "Value": {
+                "id": "78fb0b79-9370-42b3-896d-66c05ef87d29",
+                "resourcePath": "rooms\\rm_f1\\rm_f1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
