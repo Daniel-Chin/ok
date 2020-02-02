@@ -2,6 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 if(obj_cutscene.cutscene) exit; 
+
 var moving = false;
 if (can_jump > 0) {
 	can_jump -= global.spf;

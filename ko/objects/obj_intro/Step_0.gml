@@ -3,6 +3,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 timer += global.spf;
+sc_loop(u_room);
 switch (stage) {
 	case -7:
 		// nothing
@@ -13,7 +14,6 @@ switch (stage) {
 			timer = 0;
 			stage ++;
 			// exit
-			audio_play_sound(theroom, 0, false);
 		}
 		break;
 	case -5:
