@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "181db6a0-3b53-448f-bb7f-9a239e4d3c14",
+            "Value": {
+                "id": "dbd4f17e-1fdd-43a0-9f5e-0152b6e2db9e",
+                "resourcePath": "sprites\\enemy_lorge1\\enemy_lorge1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "196668e2-8571-4c14-b878-fd36e8478a3a",
             "Value": {
                 "id": "6665b936-3911-438c-88f5-c30bde78f2f9",
@@ -228,6 +236,14 @@
                 "id": "75b9757e-614c-4094-aff7-99e76be6ed7d",
                 "resourcePath": "scripts\\cutsceneFadeIn\\cutsceneFadeIn.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2211d1f4-9fce-444c-b0f8-81e28a7eb333",
+            "Value": {
+                "id": "eb04622e-52a2-4a9d-b39f-73dbe27a4736",
+                "resourcePath": "objects\\obj_walk_enemy1\\obj_walk_enemy1.yy",
+                "resourceType": "GMObject"
             }
         },
         {

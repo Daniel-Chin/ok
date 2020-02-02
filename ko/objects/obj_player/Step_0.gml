@@ -37,7 +37,8 @@ if (hp_regen_timeout > 0) {
 
 //Dad
 if(hp < 0){
-	room_goto(5);
+	audio_stop_all();
+	audio_play_sound(u_gameover, 10, false);
 }
 
 if (state == IDLE) {
