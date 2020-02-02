@@ -69,5 +69,6 @@ global.CAMERA_SPEED = 2000;
 global.room_col = 0;
 global.room_row = 0;
 
-global.font = font_add("PixelOperator8-Bold.ttf", 8, true, false, 32, 128);
-draw_set_font(global.font);
+global.font_36 = font_add("PixelOperator8-Bold.ttf", 36, true, false, 32, 128);
+global.font_48 = font_add("PixelOperator8-Bold.ttf", 48, true, false, 32, 128);
+draw_set_font(global.font_36);

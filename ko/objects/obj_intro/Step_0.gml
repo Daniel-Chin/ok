@@ -82,10 +82,18 @@ switch (stage) {
 		break;
 	case 3:
 		// repeated
-		if (timer >= 3) {
+		if (keyboard_check(vk_anykey)) {
 			timer = 0;
 			stage ++;
-			stage = 6;		////
+			// exit
+		}
+		break;
+	case 4:
+		// repeated
+		if (timer >= 2) {
+			timer = 0;
+			stage ++;
+			stage = 6;
 			// exit
 		}
 		break;
@@ -116,7 +124,7 @@ switch (stage) {
 		break;
 	case 8:
 		// repeated
-		if (timer >= 1) {
+		if (timer >= 2) {
 			timer = 0;
 			stage ++;
 			// exit

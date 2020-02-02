@@ -40,6 +40,7 @@ if (state == IDLE) {
 		can_jump = -1;
 		vspeed = - global.JUMP_POWER;
 		did_interrupt_recall = true;
+		audio_play_sound(jump, 0, false);
 	}
 	if (keyboard_check(global.KEY_JUMP)) {
 		if (vspeed < 0) {
@@ -100,6 +101,7 @@ if (state == IDLE) {
 		my_briefcase.hspeed = facing * global.BRIEFCASE_SPEED;
 		my_briefcase.player = id;
 		did_interrupt_recall = true;
+		audio_play_sound(throwbriefcase, 0, false);
 	}
 	if (did_interrupt_recall) {
 		recall_timeout = global.RECALL_HOLD;
@@ -191,7 +193,12 @@ if (state == IDLE) {
 			} else {
 				sprite_index = spr_walk_no_brief;
 			}
-		} else {
+			footstep_timeout -= global.spf;
+			if (footstep_timeout <= 0) {
+				footstep_timeout = .25;
+				audio_play_sound(footstepfx, 0, false)
+			}
+	} else {
 			image_speed = 1;
 			if (has_briefcase) {
 				sprite_index = spr_player_brief;

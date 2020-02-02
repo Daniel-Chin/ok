@@ -74,6 +74,6 @@ draw_roundrect_ext(
 	x + bubble_offset + global.WIDTH * .4, y + global.HEIGHT * .08, 
 	40, 40, true
 );
-draw_text_transformed(x + bubble_offset, (smart_top + y + global.HEIGHT * .08) / 2, to_print, 2, 2, 0);
+draw_text_transformed(x + bubble_offset, (smart_top + y + global.HEIGHT * .08) / 2, to_print, 1, 1, 0);
 draw_sprite_ext(speaker_sprite, 0, x + sprite_offset, y, .4, .4, 0, c_white, 1);
 draw_set_alpha(1);
