@@ -1,8 +1,8 @@
 {
-    "id": "2d35487b-1a20-44b1-946e-e8a0e3b8c6b3",
+    "id": "9a5cca1e-bf64-4db1-96a8-e12578fa2a89",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "boss1",
+    "name": "u_room",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
