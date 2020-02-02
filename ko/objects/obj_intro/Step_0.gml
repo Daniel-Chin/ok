@@ -275,5 +275,9 @@ switch (stage) {
 			audio_play_sound(u_transition, 0, false);
 		}
 		break;
+	case 26:
+		if (timer >= 5) {
+			room_goto_next();
+		}
 }
 show_debug_message(stage);

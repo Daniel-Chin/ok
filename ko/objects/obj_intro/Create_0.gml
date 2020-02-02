@@ -2,6 +2,6 @@
 // You can write your code in this editor
 timer = 0;
 stage = -6;
-stage = 20;///
+//stage = 22;///
 SPEED = 1;
-SPEED = 2;////
+//SPEED = 2;////

@@ -4,7 +4,9 @@ var knockback_direction = argument2;
 if (who.invincibility_timeout <= 0) {
 	who.hp -= damage;
 	if (who.hp <= 0) {
-		instance_destroy(who);
+		if (! who.is_boss) {
+			instance_destroy(who);
+		}
 		audio_play_sound(choose(demondeath1, demondeath2, demondeath3), 0, false);
 		return true;
 	}

@@ -75,3 +75,6 @@ global.font_24 = font_add("PixelOperator8-Bold.ttf", 24, true, false, 32, 128);
 global.font_36 = font_add("PixelOperator8-Bold.ttf", 36, true, false, 32, 128);
 global.font_48 = font_add("PixelOperator8-Bold.ttf", 48, true, false, 32, 128);
 draw_set_font(global.font_24);
+
+global.BOSS_SPEED = 10;
+global.BOSS_FLOAT = 20;

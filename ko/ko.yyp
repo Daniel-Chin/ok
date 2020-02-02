@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "349a0ac5-fb18-48b2-b758-0dda2f30d595",
+            "Value": {
+                "id": "bd0ce010-11fd-41a5-8e26-b3a97e0f0da9",
+                "resourcePath": "sprites\\boss_fly\\boss_fly.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3701ee09-c012-4c8e-8fe6-1570df52a0a7",
             "Value": {
                 "id": "3848b9b8-50d0-449c-8e96-cb1e99201bed",
@@ -332,6 +340,14 @@
                 "id": "c798df10-1e4b-404a-af26-5f06f828ccba",
                 "resourcePath": "sprites\\spr_incubus_dialogue\\spr_incubus_dialogue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f324c84-2051-421c-8d2d-4fc2396d8a95",
+            "Value": {
+                "id": "a0f4fd5f-21af-4a89-a81a-e0137900d399",
+                "resourcePath": "rooms\\rm_boss\\rm_boss.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -519,6 +535,22 @@
             }
         },
         {
+            "Key": "61a67361-ef35-4ff7-b4d7-02e2514c44af",
+            "Value": {
+                "id": "edd0ba70-481e-4fe6-9a09-bb8b948ea706",
+                "resourcePath": "sprites\\boss_death\\boss_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61d7e110-06ff-430c-ade4-957a374dba93",
+            "Value": {
+                "id": "4d3ad42b-5b85-4bac-830b-907bcc092609",
+                "resourcePath": "sprites\\boss_fireproject\\boss_fireproject.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6213eca3-f796-4d86-8abb-85171a2e47e7",
             "Value": {
                 "id": "beef7c2e-a789-47cc-96b7-120d15e3f9f5",
@@ -675,6 +707,14 @@
             "Value": {
                 "id": "51e0b5b7-ed7e-48ca-94cc-9ba7047d8e09",
                 "resourcePath": "objects\\obj_dialog\\obj_dialog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7ddf4ef1-1797-4337-8fc1-398ed34a7dcf",
+            "Value": {
+                "id": "0fca5d72-0c8a-45ce-a1d9-17e6b1797f5d",
+                "resourcePath": "objects\\obj_boss_bullet\\obj_boss_bullet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1116,6 +1156,14 @@
                 "id": "2505e4d7-1e9f-40f5-829b-e8cb07e6c17f",
                 "resourcePath": "objects\\obj_walk_enemy\\obj_walk_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bede4bf4-37aa-480a-8e01-012e2f1f2217",
+            "Value": {
+                "id": "cc18da68-a6e0-424a-bc95-34ea84144e8a",
+                "resourcePath": "sprites\\boss_fireatk\\boss_fireatk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
