@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.WIDTH = 1920;
-global.HEIGHT = 1080;
+global.WIDTH = 960;
+global.HEIGHT = 540;
 
 global.GRAVITY = 50;
 global.JUMP_POWER = 10;

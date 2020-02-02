@@ -3,7 +3,7 @@
 var up = false;
 if (abs(bbox_bottom - other.bbox_top) < global.GRAVITY * 1) {	// to be proof of velocity gained from 1.5s of free fall
 	can_jump = global.OFF_PLATFORM_JUMP_TOLERANCE;
-	vspeed = min(vspeed, other.vspeed - .3);
+	vspeed = min(vspeed, other.vspeed - .1);
 	y -= bbox_bottom - other.bbox_top + 1;
 	up = true;
 	last_ground = other;
