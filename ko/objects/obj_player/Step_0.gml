@@ -43,10 +43,12 @@ if (state == IDLE) {
 	if        (keyboard_check(vk_left )) {
 		hspeed = hspeed * (1 - global.WALK_APPROACH) - global.WALK_SPEED * global.WALK_APPROACH;
 		facing = LEFT;
+		image_xscale = -1;
 		did_interrupt_recall = true;
 	} else if (keyboard_check(vk_right)) {
 		hspeed = hspeed * (1 - global.WALK_APPROACH) + global.WALK_SPEED * global.WALK_APPROACH;
 		facing = RIGHT;
+		image_xscale = 1;
 		did_interrupt_recall = true;
 	}
 	if (keyboard_check_pressed(global.KEY_ATTACK)) {
@@ -62,6 +64,7 @@ if (state == IDLE) {
 	}
 	if (has_briefcase && keyboard_check_pressed(global.KEY_THROW) && throw_cooldown <= 0) {
 		has_briefcase = false;
+		sprite_index = spr_player_no_brief;
 		throw_cooldown = global.THROW_COOLDOWN;
 		my_briefcase = instance_create_layer(x, y, "Instances", obj_briefcase);
 		my_briefcase.state = my_briefcase.FLY;
@@ -130,6 +133,7 @@ if (left_incoming > 0) {
 		state = BLOCKING;
 		block_progress = 0;
 		facing = LEFT;
+		image_xscale = -1;
 	}
 }
 if (right_incoming > 0) {
@@ -138,6 +142,7 @@ if (right_incoming > 0) {
 		state = BLOCKING;
 		block_progress = 0;
 		facing = RIGHT;
+		image_xscale = 1;
 	}
 }
 if (state == BLOCKING) {

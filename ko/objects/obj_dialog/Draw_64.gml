@@ -3,10 +3,12 @@
 var to_print = "";
 switch (state) {
 	case READY:
-		image_index = speaker_sprite;
+		bubble_x = x + offset_direction * room_width * .08;
+		sprite_index = speaker_sprite;
+		x -= offset_direction * room_width * .4;
 		target_length = string_length(text);
-		image_xscale = 2;
-		image_yscale = 2;
+		//image_xscale = 2;
+		//image_yscale = 2;
 		state ++;
 		break;
 	case APPEAR:
@@ -48,9 +50,9 @@ switch (state) {
 		break;
 }
 draw_roundrect_ext(
-	room_width * .2 + bubble_offset, y - room_height * .08, 
-	room_width * .8 + bubble_offset, y + room_height * .08, 
+	bubble_x - room_width * .4, y - room_height * .08, 
+	bubble_x + room_width * .4, y + room_height * .08, 
 	40, 40, true
 );
-draw_text_transformed(x + bubble_offset, y, to_print, 2, 2, 0);
+draw_text_transformed(bubble_x, y, to_print, 2, 2, 0);
 draw_set_alpha(1);

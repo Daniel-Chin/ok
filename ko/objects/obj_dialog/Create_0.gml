@@ -8,4 +8,4 @@ speaker_sprite = -1;
 text = "DEFAULT";
 print_progress = 0;
 age = 0;
-bubble_offset = 0;
+offset_direction = 0;
