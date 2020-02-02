@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(!instance_exists(global.player)) exit;
 global.room_col = (global.player).x div global.VIEW_WIDTH;
 global.room_row = (global.player).y div global.VIEW_HEIGHT;
 var target_x = (global.room_col + .5) * global.VIEW_WIDTH;
