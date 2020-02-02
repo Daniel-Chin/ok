@@ -1,6 +1,5 @@
 /// @description Insert description here
-// room_width * (.5 + argument2 * 1.7), room_height * .9, 
-if (lower != -1) {
+if (lower != -1 && instance_exists(lower)) {
 	vspeed = (lower.y - global.HEIGHT * .2 - y) * .03;
 }
 var to_print = "";
@@ -75,5 +74,5 @@ draw_roundrect_ext(
 	40, 40, true
 );
 draw_text_transformed(x + bubble_offset, (smart_top + y + global.HEIGHT * .08) / 2, to_print, 1, 1, 0);
-draw_sprite_ext(speaker_sprite, 0, x + sprite_offset, y, .4, .4, 0, c_white, 1);
+draw_sprite_ext(speaker_sprite, 0, x + sprite_offset, y, .4, .4, 0, c_white, image_alpha);
 draw_set_alpha(1);
