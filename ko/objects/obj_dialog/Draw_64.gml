@@ -50,6 +50,9 @@ switch (state) {
 				lower.upper = -1;
 			}
 			draw_set_alpha(1);
+			if (global.root_dialog == id) {
+				global.root_dialog = -1;
+			}
 			instance_destroy();
 			exit;
 		}

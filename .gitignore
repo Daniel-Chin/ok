@@ -1,3 +1,5 @@
 *.gif
 *.mp3
 ko/views/
+*.zip
+*.exe

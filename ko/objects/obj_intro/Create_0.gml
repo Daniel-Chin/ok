@@ -5,3 +5,5 @@ stage = -6;
 //stage = 22;///
 SPEED = 1;
 //SPEED = 2;////
+
+loopFlag = false

@@ -1,5 +1,5 @@
 {
-    "id": "7ddf4ef1-1797-4337-8fc1-398ed34a7dcf",
+    "id": "51630249-f564-436e-a296-1d27948bd738",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_boss_bullet",

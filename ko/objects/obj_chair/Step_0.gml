@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+sc_loop(u_main);
 if (ready) {
 	var segment = path[segment_i];
 	progress += segment[0] * global.spf;

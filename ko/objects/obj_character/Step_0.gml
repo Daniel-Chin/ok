@@ -7,6 +7,7 @@ if (can_jump <= 0) {
 	drag *= .3;
 } else {
 	zero = last_ground.hspeed;
+	can_jump -= global.spf;
 }
 if (hspeed < zero) {
 	hspeed = min(zero, hspeed + drag);

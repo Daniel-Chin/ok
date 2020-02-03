@@ -4,9 +4,6 @@ event_inherited();
 if(instance_exists(obj_cutscene)) exit; 
 
 var moving = false;
-if (can_jump > 0) {
-	can_jump -= global.spf;
-}
 if (throw_cooldown > 0) {
 	throw_cooldown -= global.spf;
 }

@@ -44,7 +44,7 @@ global.INVINCIBLE_BLINK = .1;
 
 global.BRIEFCASE_SPEED = 8;
 global.THROW_COOLDOWN = 1;
-global.RECALL_HOLD = 2;
+global.RECALL_HOLD = 1.4;
 
 global.ENEMY_SPEED = 2;
 global.ENEMY_WALK_APPROACH = 0.02;

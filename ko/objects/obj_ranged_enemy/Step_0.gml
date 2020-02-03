@@ -21,3 +21,4 @@ if (
 	projectile.image_yscale = 2;
 }
 hspeed = 0;
+vspeed = 0;
