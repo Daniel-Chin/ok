@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "f130f381-6e38-40c9-ae69-9b5d06166dd1",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
             "Key": "7a61054a-d980-4ed0-b54d-ead78e0f12ae",
             "Value": {
                 "id": "f28fc654-6e60-4d76-ac76-7c728779d5e2",
@@ -740,6 +748,14 @@
                 "id": "706be47b-63c1-49e0-b13a-5174c458b729",
                 "resourcePath": "rooms\\gameover\\gameover.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
+            "Value": {
+                "id": "a14195c4-567c-4fe1-9016-714bf579f57f",
+                "resourcePath": "options\\windowsuap\\options_windowsuap.yy",
+                "resourceType": "GMWindowsUAPOptions"
             }
         },
         {
@@ -788,6 +804,14 @@
                 "id": "c54bbdc5-179f-4129-8986-dbe6a3be9dcf",
                 "resourcePath": "sprites\\spr_incubus_dialogue_confuse\\spr_incubus_dialogue_confuse.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "ac7823d5-802a-4c7d-a770-f32dce359397",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
             }
         },
         {
@@ -876,6 +900,14 @@
                 "id": "710f21aa-21fe-4b5a-a711-68b5afe98d62",
                 "resourcePath": "sounds\\elevatording\\elevatording.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "5162d5eb-f905-41ca-a333-48f7d3422b51",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
             }
         },
         {
@@ -996,6 +1028,14 @@
                 "id": "8d844a6a-c112-4a59-b292-550b28ac9d53",
                 "resourcePath": "views\\a1086d0c-5347-49e3-8f46-18b869c92c1a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "aaf6c7f0-8245-4a1c-ad08-62aeb4548a99",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
@@ -1396,6 +1436,14 @@
                 "id": "9ae0689d-9915-4003-837f-affd7cc68038",
                 "resourcePath": "sprites\\enemy_lorge\\enemy_lorge.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "1a7cb25f-e793-4ac9-bd01-8f2bd338a4b2",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
             }
         },
         {
